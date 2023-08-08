@@ -3,7 +3,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 
 }
 
