@@ -1,0 +1,200 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Miriam+Libre&family=Montserrat:wght@300&family=Oswald:wght@300&family=Rhodium+Libre&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    border: solid red 2px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: darkolivegreen;
+
+}
+
+/* Header y Navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* Para espaciar el logo y el nav en desktop */
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Imágenes y productos */
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.producto p {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0f0f0;
+}
+
+.productoss {
+    display: flex;
+    justify-content: center;
+}
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto div {
+    margin: 40px;
+}
+
+.cont {
+   padding-top: 150px;
+}
+.mapa {
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 767px) {
+    .productoss {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 20px;
+        /* Añade un margen superior para separar el nav del logo en móvil */
+    }
+
+    .producto {
+        margin: 15px;
+    }
+    span {
+        display: none;
+    }
+    .mapa {
+        width: 200px;
+        height: 200px;
+    }
+    .contacto {
+        display: block;
+        
+    }
+    
+    .contacto div {
+        margin: 10px;
+    }
+    
+    .cont {
+       padding-top: 5px;
+    }
+    
+}
+
