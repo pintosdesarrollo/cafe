@@ -128,7 +128,11 @@ footer li {
     display: inline-block;
     margin-right: 10px;
 }
-
+.by {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 footer a {
     color: #fff;
     text-decoration: none;
@@ -137,6 +141,12 @@ footer a {
 footer a:hover {
     color: #f0f0f0;
 }
+.imgRedes {
+    width: 50px;
+  height: 50px;
+}
+
+/* fin del footer */
 
 .productoss {
     display: flex;
