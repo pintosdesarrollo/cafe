@@ -169,6 +169,10 @@ footer a:hover {
     height: 400px;
 }
 
+.imgRedes {
+    width: 40px;
+    height: 40px;
+}
 @media (max-width: 767px) {
     .productoss {
         flex-direction: column;
